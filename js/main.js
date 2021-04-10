@@ -1,5 +1,13 @@
 $(window).load(function(){
 	$('#preloader').fadeOut('slow',function(){$(this).remove();});
+
+	var circle = new ProgressBar.Circle('#testProg', {
+		color: '#FCB03C',
+		duration: 3000,
+		easing: 'easeInOut'
+	});
+
+	circle.animate(1);
 });
 
 
