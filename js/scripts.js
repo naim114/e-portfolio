@@ -6,18 +6,21 @@
 
 $(document).ready(function () {
     $("#icon_github").click(function () {
-        navigator.clipboard.writeText("https://github.com/naim114");
-        alert("Github copy to clipboard!");
+        window.open('https://github.com/naim114', '_blank');
+        // navigator.clipboard.writeText("https://github.com/naim114");
+        // alert("Github copy to clipboard!");
     });
 
     $("#icon_phone").click(function () {
-        navigator.clipboard.writeText("+60 11-3366 9657");
-        alert("Phone numebr copy to clipboard!");
+        window.open('http://wa.me//+601133669657', '_blank');
+        // navigator.clipboard.writeText("+60 11-3366 9657");
+        // alert("Phone numebr copy to clipboard!");
     });
 
     $("#icon_email").click(function () {
-        navigator.clipboard.writeText("naim.muhammad99@gmail.com");
-        alert("Email copy to clipboard!");
+        window.open('mailto:webmaster@example.com');
+        // navigator.clipboard.writeText("naim.muhammad99@gmail.com");
+        // alert("Email copy to clipboard!");
     });
 
     $(window).scroll(function () {
