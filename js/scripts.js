@@ -25,7 +25,6 @@ $(document).ready(function () {
 
     $(window).scroll(function () {
         var y = $(window).scrollTop();
-        console.log(y);
         if (y > 0) {
             $("#navbar").addClass('shadow-lg');
             $("#navbar").css('opacity', 0.8);
