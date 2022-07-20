@@ -1,5 +1,17 @@
 [submodule "elegant-bootstrap-template"]
 	path = demo/elegant-bootstrap-template
 	url = https://github.com/naim114/elegant-bootstrap-template.git
+[submodule "Bikin"]
+	path = demo/Bikin
+[submodule "Bizland"]
+	path = demo/Bizland
+[submodule "Company"]
+	path = demo/Company
+[submodule "iPortfolio"]
+	path = demo/iPortfolio
+[submodule "Mentor"]
+	path = demo/Mentor
+[submodule "Techie"]
+	path = demo/Techie
 [submodule "UpConstruction"]
 	path = demo/UpConstruction
