@@ -23,6 +23,10 @@ $(document).ready(function () {
         // alert("Email copy to clipboard!");
     });
 
+    $("#icon_linkedin").click(function () {
+        window.open('https://www.linkedin.com/in/naim114/', '_blank');
+    });
+
     $(window).scroll(function () {
         var y = $(window).scrollTop();
         if (y > 0) {
