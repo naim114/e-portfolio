@@ -12,14 +12,14 @@ $(document).ready(function () {
     });
 
     $("#icon_phone").click(function () {
-        window.open('http://wa.me//+601133669657', '_blank');
+        // window.open('http://wa.me//+601133669657', '_blank');
         // navigator.clipboard.writeText("+60 11-3366 9657");
         // alert("Phone numebr copy to clipboard!");
     });
 
     $("#icon_email").click(function () {
-        window.open('mailto:webmaster@example.com');
-        // navigator.clipboard.writeText("naim.muhammad99@gmail.com");
+        window.open('mailto:naim.affindi@gmail.com');
+        // navigator.clipboard.writeText("naim.affindi@gmail.com");
         // alert("Email copy to clipboard!");
     });
 
